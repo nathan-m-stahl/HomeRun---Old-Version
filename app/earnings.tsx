@@ -1,4 +1,4 @@
-import React from "react";
+import { useRouter } from "expo-router";
 import {
   ScrollView,
   StyleSheet,
@@ -6,7 +6,6 @@ import {
   TouchableOpacity,
   View,
 } from "react-native";
-import { useRouter } from "expo-router";
 
 const weeklyEarnings = [
   { day: "Mon", amount: 45 },

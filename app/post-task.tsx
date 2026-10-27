@@ -1,5 +1,5 @@
 import { useRouter } from "expo-router";
-import React, { useState } from "react";
+import { useState } from "react";
 import {
   Alert,
   KeyboardAvoidingView,
@@ -18,14 +18,16 @@ const GOOGLE_MAPS_API_KEY = process.env.EXPO_PUBLIC_GOOGLE_MAPS_API_KEY;
 
 const categoryOptions = [
   "Mowing",
+  "Weed Wacking",
   "Weeding",
   "Raking",
-  "Snow Shoveling",
-  "Moving Help",
   "Landscaping",
-  "Painting",
-  "Furniture Assembly",
-  "Cleaning",
+  "Tree Trimming",
+  "Snow Shoveling",
+  "Gardening",
+  "Window Washing",
+  "Power Washing",
+  "Assembly",
   "Junk Removal",
   "General Labor",
   "Other",

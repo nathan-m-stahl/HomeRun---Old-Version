@@ -1,6 +1,6 @@
 import { supabase } from "@/lib/supabase";
 import { useRouter } from "expo-router";
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import {
   Alert,
   ScrollView,

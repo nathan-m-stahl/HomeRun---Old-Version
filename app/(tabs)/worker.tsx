@@ -1,7 +1,7 @@
 import { supabase } from "@/lib/supabase";
 import * as Location from "expo-location";
 import { useRouter } from "expo-router";
-import React, { useState } from "react";
+import { useState } from "react";
 import {
   Alert,
   KeyboardAvoidingView,
